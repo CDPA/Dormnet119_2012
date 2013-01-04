@@ -9,6 +9,15 @@
 	</head>
 	<body>
 		<center>
+		
+			<div>			
+				<BUTTON onclick="self.location.href='p1.php'">報修</BUTTON>
+				<BUTTON onclick="self.location.href='p2.php'">前置檢查</BUTTON>
+				<BUTTON onclick="self.location.href='p3.php'">填報修單</BUTTON>
+				<BUTTON onclick="self.location.href='p4.php'">改報修單</BUTTON>
+			</div>
+			<hr>
+		
 			<h1>前置檢查</h1>
 			<h2>如因超流或其他違規行為被鎖網，網推會將不提供報修服務!</h2>
 			<hr>

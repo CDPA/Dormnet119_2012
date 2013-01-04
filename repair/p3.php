@@ -5,7 +5,17 @@
 		<title>填報修單</title>
 	</head>
 	<body>
+		<center>
+			<div>			
+				<BUTTON onclick="self.location.href='p1.php'">報修</BUTTON>
+				<BUTTON onclick="self.location.href='p2.php'">前置檢查</BUTTON>
+				<BUTTON onclick="self.location.href='p3.php'">填報修單</BUTTON>
+				<BUTTON onclick="self.location.href='p4.php'">改報修單</BUTTON>
+			</div>
+			<hr>
+		</center>
 
+	
 		<div>
 			<h1 style="text-align: center; font-size: 36px; margin-left: -50px">宿網報修</h1>
 		</div>
@@ -131,13 +141,119 @@
 				<div class="textarea_typ16px">
 					<p>
 						<textarea name="textarea_desc" placeholder="報修網路卡號 (MAC)...">
-
-		你的問題描述...
-
-		</textarea>
+						你的問題描述...
+						</textarea>
 					</p>
 				</div>
 
+				<div class="textarea_typ16px">
+					<table>
+						<tr>
+							<td>是否可維修：</td>
+							<td>8:00-10:00</td>
+							<td>10:00-12:00</td>
+							<td>12:00-14:00</td>
+							<td>14:00-16:00</td>
+							<td>16:00-18:00</td>
+							<td>18:00-20:00</td>
+							<td>20:00-22:00</td>
+							<td>22:00-24:00</td>
+						</tr>
+						<tr>
+							<form  method="get">
+								<td>禮拜一</td>
+								<td><input type="checkbox" name="check1" id="8:00-10:00" /></td>
+								<td><input type="checkbox" name="check1" id="10:00-12:00" /></td>
+								<td><input type="checkbox" name="check1" id="12:00-14:00" /></td>
+								<td><input type="checkbox" name="check1" id="14:00-16:00" /></td>
+								<td><input type="checkbox" name="check1" id="16:00-18:00" /></td>
+								<td><input type="checkbox" name="check1" id="18:00-20:00" /></td>
+								<td><input type="checkbox" name="check1" id="20:00-22:00" /></td>
+								<td><input type="checkbox" name="check1" id="22:00-24:00" /></td>
+							</form>
+						</tr>
+						<tr>
+							<form  method="get">
+								<td>禮拜二</td>
+								<td><input type="checkbox" name="check1" id="8:00-10:00" /></td>
+								<td><input type="checkbox" name="check1" id="10:00-12:00" /></td>
+								<td><input type="checkbox" name="check1" id="12:00-14:00" /></td>
+								<td><input type="checkbox" name="check1" id="14:00-16:00" /></td>
+								<td><input type="checkbox" name="check1" id="16:00-18:00" /></td>
+								<td><input type="checkbox" name="check1" id="18:00-20:00" /></td>
+								<td><input type="checkbox" name="check1" id="20:00-22:00" /></td>
+								<td><input type="checkbox" name="check1" id="22:00-24:00" /></td>
+							</form>
+						</tr>
+						<tr>
+							<form  method="get">
+								<td>禮拜三</td>
+								<td><input type="checkbox" name="check1" id="8:00-10:00" /></td>
+								<td><input type="checkbox" name="check1" id="10:00-12:00" /></td>
+								<td><input type="checkbox" name="check1" id="12:00-14:00" /></td>
+								<td><input type="checkbox" name="check1" id="14:00-16:00" /></td>
+								<td><input type="checkbox" name="check1" id="16:00-18:00" /></td>
+								<td><input type="checkbox" name="check1" id="18:00-20:00" /></td>
+								<td><input type="checkbox" name="check1" id="20:00-22:00" /></td>
+								<td><input type="checkbox" name="check1" id="22:00-24:00" /></td>
+							</form>
+						</tr>
+						<tr>
+							<form  method="get">
+								<td>禮拜四</td>
+								<td><input type="checkbox" name="check1" id="8:00-10:00" /></td>
+								<td><input type="checkbox" name="check1" id="10:00-12:00" /></td>
+								<td><input type="checkbox" name="check1" id="12:00-14:00" /></td>
+								<td><input type="checkbox" name="check1" id="14:00-16:00" /></td>
+								<td><input type="checkbox" name="check1" id="16:00-18:00" /></td>
+								<td><input type="checkbox" name="check1" id="18:00-20:00" /></td>
+								<td><input type="checkbox" name="check1" id="20:00-22:00" /></td>
+								<td><input type="checkbox" name="check1" id="22:00-24:00" /></td>
+							</form>
+						</tr>
+						<tr>
+							<form  method="get">
+								<td>禮拜五</td>
+								<td><input type="checkbox" name="check1" id="8:00-10:00" /></td>
+								<td><input type="checkbox" name="check1" id="10:00-12:00" /></td>
+								<td><input type="checkbox" name="check1" id="12:00-14:00" /></td>
+								<td><input type="checkbox" name="check1" id="14:00-16:00" /></td>
+								<td><input type="checkbox" name="check1" id="16:00-18:00" /></td>
+								<td><input type="checkbox" name="check1" id="18:00-20:00" /></td>
+								<td><input type="checkbox" name="check1" id="20:00-22:00" /></td>
+								<td><input type="checkbox" name="check1" id="22:00-24:00" /></td>
+							</form>
+						</tr>
+						<tr>
+							<form  method="get">
+								<td>禮拜六</td>
+								<td><input type="checkbox" name="check1" id="8:00-10:00" /></td>
+								<td><input type="checkbox" name="check1" id="10:00-12:00" /></td>
+								<td><input type="checkbox" name="check1" id="12:00-14:00" /></td>
+								<td><input type="checkbox" name="check1" id="14:00-16:00" /></td>
+								<td><input type="checkbox" name="check1" id="16:00-18:00" /></td>
+								<td><input type="checkbox" name="check1" id="18:00-20:00" /></td>
+								<td><input type="checkbox" name="check1" id="20:00-22:00" /></td>
+								<td><input type="checkbox" name="check1" id="22:00-24:00" /></td>
+							</form>
+						</tr>
+						<tr>
+							<form  method="get">
+								<td>禮拜日</td>
+								<td><input type="checkbox" name="check1" id="8:00-10:00" /></td>
+								<td><input type="checkbox" name="check1" id="10:00-12:00" /></td>
+								<td><input type="checkbox" name="check1" id="12:00-14:00" /></td>
+								<td><input type="checkbox" name="check1" id="14:00-16:00" /></td>
+								<td><input type="checkbox" name="check1" id="16:00-18:00" /></td>
+								<td><input type="checkbox" name="check1" id="18:00-20:00" /></td>
+								<td><input type="checkbox" name="check1" id="20:00-22:00" /></td>
+								<td><input type="checkbox" name="check1" id="22:00-24:00" /></td>
+							</form>
+						</tr>
+					</table>
+				
+				</div>
+				
 				<br />
 				<h3 class="formnote">送出維修申請單前，請再次確認上述資料填寫無誤，謝謝！</h3>
 			</div>
