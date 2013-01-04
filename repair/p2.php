@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8"> 
-        	 <title> 前置檢查 </title>
+        	 <title>前置檢查</title>
      	 	 <style type="text/css">
       		 	h2 {color:red;}
        		 </style>
