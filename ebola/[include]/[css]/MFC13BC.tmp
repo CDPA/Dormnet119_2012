@@ -1,0 +1,140 @@
+html {
+	background: #d5d6e5;
+	height: 100%;
+	width: 100%;
+}
+body {
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 200px, #d5d6e5 500px); /* FF3.6+ */
+	background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 200px, #d5d6e5 500px); /* IE10+ */
+	background: -o-linear-gradient(top, #ffffff 0%, #ffffff 200px, #d5d6e5 500px); /* Opera 11.10+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(200px, #ffffff), color-stop(500px, #d5d6e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 200px, #d5d6e5 500px); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 200px, #d5d6e5 500px); /* W3C */
+	color: #000;
+ 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d5d6e5', GradientType=0 ); /* IE6-9 */
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	height: fill;
+	margin: 50px 0 0 0;
+	width: 100%;
+}
+ul, ol, dl {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, p, span {
+	margin-top: 0;
+	padding-left: 30px;
+	padding-right: 15px;
+}
+a img {
+	border: none;
+}
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+.header {
+    background-color: black;
+	height: 50px;
+	position: fixed;
+	top: 0; 
+	width: 100%;
+}
+.bodyCanvas {
+	box-shadow: -3px 0px 5px #B2B2B2, 3px 0px 5px #B2B2B2;
+	height: 100%;
+	margin: 0 0 0 0;
+	width: 100%;
+}
+.wrapper {
+	margin: 50px 10% 0 10%;
+	text-align: left;
+}
+.container {
+	background: #fff;
+}
+.container leftNav {
+	border: 1px solid #999999;
+}
+.container contents {
+	border: 1px solid #999999;
+	margin: 70px 0 0 0;
+	padding-left: 3em;
+	padding-top: 3em;
+}
+.footer {
+	font-size: 12px;
+	text-align: center;
+}
+
+/*----- Box -----*/
+.box1 {
+	background: #D7DAE0;
+	border: 2px outset #DEE0E5;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	padding-top: 25px;
+	width: 822px;
+}
+.box1 h2 {
+	color: #0C0C0C;
+	padding-bottom: 0.5em;
+}
+.input_type5em > p > input {
+	/* border-style: none; */
+	font-size: 15px;
+	width: 5em;
+}
+.input_type5em > p > span {
+	color: #999999;
+	font-size: 15px;
+}
+.input_type8em > p > input {
+	/* border-style: none; */
+	font-size: 15px;
+	width: 8em;
+}
+.input_type8em > p > span {
+	color: #999999;
+	font-size: 15px;
+}
+.input_type25em > p > input {
+	/* border-style: none; */
+	font-size: 15px;
+	width: 25em;
+}
+.input_type25em > p > span {
+	color: #999999;
+	font-size: 15px;
+}
+.select_typ12em > p > select {
+	font-size: 15px;
+	width: 12em;
+}
+.textarea_typ16px > p > textarea {
+	font-size: 16px;
+	height: 300px;
+	max-height: 1000px;
+	max-width: 780px;
+	min-height: 200px;
+	min-width: 500px;
+	width: 700px;
+}
+/*----- Submit area -----*/
+#submitarea {
+	margin-left: -50px; /* center object */
+	text-align: center;
+}
+#submitarea > input {
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-right: 15px;
+}
