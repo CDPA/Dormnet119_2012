@@ -88,7 +88,7 @@
 	// Protocol name, usually "http://"
 	$protocol = (80 == $_SERVER["SERVER_PORT"] ? 'http://' : 'https://');
 	// Name of the root (Directory)
-	$nameRoot = 'dormnet';
+	$nameRoot = 'ebola';
 	// Script (ex. "search?q=123") WITHOUT trailing slash
 	$script = $_SERVER['SCRIPT_NAME'];
 
