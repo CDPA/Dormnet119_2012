@@ -54,7 +54,7 @@
 
 <?php // [Info.] Require main page
 
-	$root = get_rootPath('dormnet');
+	$root = get_rootPath('ebola');
 
 	require_once "$root" . '/' . 'index.php';
 ?>
