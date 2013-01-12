@@ -98,9 +98,9 @@
 					<p>
 						<input name="input_ip" placeholder="報修 IP 位址 (IPv4)..." title="報修 IP 位址 (IPv4)" maxlength="15" />
 						*
-						<span class="tooltip">
+						<!--span class="tooltip">
 							<img src="./images/tooltip.png" name="tooltip1" />
-						</span>
+						</span-->
 						<span>
 							<br />
 							<small>(Ex. 140.117.255.255)</small>
@@ -136,10 +136,9 @@
 					</p>
 				</div>
 
-				<div class="textarea_typ16px">
+				<div>
 					<p>
-						<textarea name="textarea_desc" placeholder="報修網路卡號 (MAC)...">
-						你的問題描述...
+						<textarea rows="4" cols="50%" name="textarea_desc" placeholder="報修網路卡號 (MAC)...">你的問題描述...
 						</textarea>
 					</p>
 				</div>
@@ -147,7 +146,7 @@
 				<div class="textarea_typ16px">
 					<table>
 						<tr>
-							<td>是否可維修：</td>
+							<td>維修時段：</td>
 							<td>8:00-10:00</td>
 							<td>10:00-12:00</td>
 							<td>12:00-14:00</td>
