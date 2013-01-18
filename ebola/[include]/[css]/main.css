@@ -33,6 +33,7 @@ a:hover, a:active, a:focus {
 	text-decoration: underline;
 }
 .header_canvas {
+	/* Ultimate CSS Gradient Generator */
 	background: #35312f; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM1MzEyZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyMzIwMWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -60,9 +61,9 @@ a:hover, a:active, a:focus {
 #header_logo {
 	position: relative;
 	float: left;
-	background-color: #fff;
+	background-color: transparent;
 	margin-left: 20px;
-	width: 60px;
+	width: 200px;
 	height: 50px;
 }
 #header_nav {
@@ -97,11 +98,11 @@ a:hover, a:active, a:focus {
 	margin: 0 auto;
 }
 #header_nav ul li > div > div a:hover {
-	background-color: #383431;
-	color: #C7C9DB;
+	background-color: #605C57;
+	color: #E8EAFF;
 }
 #header_nav ul li div > div a {
-	color: #DEE0F2;
+	color: #D0D2E5;
 	font-size: 18px;
 	display: block;
 	text-decoration: none;

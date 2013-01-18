@@ -1,4 +1,10 @@
 
+@ Make repair and search gap larger
+
+@ Make header ui more clearer
+
+@ Make logo & text together and transparent background
+
 @ Try to find a way to make header animated
 
 

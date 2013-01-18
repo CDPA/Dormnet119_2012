@@ -119,9 +119,7 @@
 	<div class="header_wrap">
 		<div id="header_logo">
 			<a href="<?php echo "$host"; ?>/" title="Home">
-				<img alt="Home" src="<?php echo "$host"; ?>/[include]/[images]/logo.png"
-				 onMouseOver="this.src='<?php echo "$host"; ?>/[include]/[images]/logoFocus.png'"
-				 onMouseOut="this.src='<?php echo "$host"; ?>/[include]/[images]/logo.png'">
+				<img alt="Home" src="<?php echo "$host"; ?>/[include]/[images]/logo.png">
 			</a>
 		</div>
 		
