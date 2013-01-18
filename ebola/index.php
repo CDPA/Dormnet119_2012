@@ -125,7 +125,7 @@
 		
 		<div id="header_nav">
 			<ul>
-				<li><div><div><a href="./repair/guide.php">Repair</a></div></div></li>
+				<li><div><div><a href="<?php echo "$host"; ?>/repair/guide.php">Repair</a></div></div></li>
 				<li><div><div><a href="#">Search</a></div></div></li>
 			</ul>
 		</div>
