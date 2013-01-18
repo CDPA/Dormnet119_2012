@@ -119,13 +119,13 @@
 	<div class="header_wrap">
 		<div id="header_logo">
 			<a href="<?php echo "$host"; ?>/" title="Home">
-				<img alt="Home" src="<?php echo "$host"; ?>/[include]/[images]/logo.png">
+				<img alt="Home" src="<?php echo "$host"; ?>/[include]/[images]/main/logo.png">
 			</a>
 		</div>
 
 		<div id="header_nav">
 			<ul>
-				<li><div><div><a href="#">Repair</a></div></div></li>
+				<li><div><div><a href="./repair/guide.php">Repair</a></div></div></li>
 				<li><div><div><a href="#">Search</a></div></div></li>
 			</ul>
 		</div>
@@ -171,7 +171,7 @@
 	<!-- @end .wrapper -->
 
 	<div class="img_hr" align="middle">
-		<img src="<?php echo "$host"; ?>/[include]/[images]/hr_gray.png">
+		<img src="<?php echo "$host"; ?>/[include]/[images]/main/hr_gray.png">
 	</div>
 
 	<!-- @start .footer_wrap -->
