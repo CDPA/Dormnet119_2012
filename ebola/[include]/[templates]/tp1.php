@@ -103,7 +103,7 @@
 <title>Dorm-net 119</title>
 
 <!-- Include CSS -->
-<link href="<?php echo "$host"; ?>/[include]/[css]/main.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo "$host"; ?>/[include]/[css]/tp1.css" rel="stylesheet" type="text/css" />
 <!--  <link href="<?php echo "$host"; ?>/[include]/[css]/DEBUG_layout.css" rel="stylesheet" type="text/css" />
 -->
 
@@ -119,64 +119,26 @@
 	<div class="header_wrap">
 		<div id="header_logo">
 			<a href="<?php echo "$host"; ?>/" title="Home">
-				<img alt="Home" src="<?php echo "$host"; ?>/[include]/[images]/main/logo.png">
+				<img alt="Home" src="<?php echo "$host"; ?>/[include]/[images]/logo.png">
 			</a>
 		</div>
-		
+
 		<div id="header_nav">
 			<ul>
-				<li><div><div><a href="./repair/guide.php">Repair</a></div></div></li>
+				<li><div><div><a href="#">Repair</a></div></div></li>
 				<li><div><div><a href="#">Search</a></div></div></li>
 			</ul>
 		</div>
 	</div>
 </div>
-<!-- @end .banner --> 
+<!-- @end .banner -->
 
 <!-- @start .bodyCanvas -->
-<div class="bodyCanvas"> 
+<div class="bodyCanvas">
 	<!-- @start .wrapper -->
-	<div class="wrapper"> 
+	<div class="wrapper">
 		<!-- @start .container -->
-		<div class="container"> 
-			<!-- @start .container content -->
-			<div class="content" id="content_leftNav">
-				
-				<div class="siderbar" id="siderbar_1">
-				<p><h3>News</h3></p>
-				<ul>
-					<li><div><a href="#">Jan 1 - CDPA games giveaway 2013</a><br/></div></li>
-					<li><div><a href="#">Jan 2 - weird monkey stole our games</a><br/></div></li>
-					<li><div><a href="#">Jan 4 - beware of ninja monkeys</a><br/></div></li>
-					<li><div><a href="#">Jan 5 - ninja monkeys hacked our website</a><br/></div></li>
-					<li><div><a href="#">Jan 5 - @$@%^!!&#$ </a><br/></div></li>
-				</ul>
-				</div>
-				
-				<div class="siderbar" id="siderbar_2">
-				<p><h3>Quick Links</h3></p>
-				<ul>
-					<li><div><a href="#">Top 100 table</a><br/></div></li>
-					<li><div><a href="#">Apply a new maintenance</a><br/></div></li>
-					<li><div><a href="#">See maintenance progress</a><br/></div></li>
-					<li><div><a href="#">Minecraft download</a><br/></div></li>
-				</ul>
-				</div>
-					
-				<div class="siderbar" id="siderbar_3">
-				<p><h3>Tutorials</h3></p>
-				<ul>
-					<li><div><a href="#">How to limit uploads</a><br/></div></li>
-					<li><div><a href="#">How to know if your network is dead</a><br/></div></li>
-					<li><div><a href="#">How to create dungeon in Minecraft</a><br/></div></li>
-					<li><div><a href="#">How to kickass</a><br/></div></li>
-					<li><div><a href="#">How to download free HD porn vid</a><br/></div></li>
-				</ul>
-				</div>
-				
-			</div>
-			<!-- @end .container content --> 
-			
+		<div class="container">
 			<!-- @start .container contents -->
 			<div class="content" id="content_main">
 				<?php // [Info.] Require contents in other files
@@ -200,27 +162,27 @@
 					require_once dirname("$root") . '/' . $str;
 				?>
 			</div>
-			<!-- @end .container contents --> 
-			
+			<!-- @end .container contents -->
+
 		</div>
-		<!-- @end .container --> 
-		
+		<!-- @end .container -->
+
 	</div>
-	<!-- @end .wrapper --> 
+	<!-- @end .wrapper -->
 
 	<div class="img_hr" align="middle">
-		<img src="<?php echo "$host"; ?>/[include]/[images]/main/hr_gray.png">
+		<img src="<?php echo "$host"; ?>/[include]/[images]/hr_gray.png">
 	</div>
-	
+
 	<!-- @start .footer_wrap -->
 	<div class="footer_wrap">
 		<div class="footer">
 			<a href="#">Home</a> | <a href="#">Products</a> | <a href="#">Services</a> | <a href="#">About Us</a> | <a href="#">Contact Us</a> | <a href="#">Site Map</a> | <a href="#">Privacy</a><br />
 			<br />
-			Copyright 2012 NSYSU-CDPA. All Rights Reserved. <img src="" width="1" /> 
+			Copyright 2012 NSYSU-CDPA. All Rights Reserved. <img src="" width="1" />
 		</div>
 	</div>
-	<!-- @end .footer_wrap --> 
+	<!-- @end .footer_wrap -->
 </div>
 <!-- @end .bodyCanvas -->
 

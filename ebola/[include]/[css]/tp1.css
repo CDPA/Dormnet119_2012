@@ -139,10 +139,8 @@ a:hover, a:active, a:focus {
 	overflow: hidden;
 	width: 888px; 
 	/* ~ #wrapper.(margin x-axis) + 
-	     #content_leftNav.width + 
-		 #content_leftNav.(margin x-axis) + 
 		 #content_main.width + 
-		 #content_main.(margin x-axis) */
+	     #content_main.(margin x-axis) */
 	margin: 50px auto 0 auto;
 	position: relative;
 	padding: 20px 0;
@@ -155,60 +153,18 @@ a:hover, a:active, a:focus {
 	
 	background-color: #fff;
 }
-#content_leftNav { /* level: 1 */
-	width: 250px;
-	margin-left: 0;
-	margin-right: 20px;
-	background-color: transparent;
-}
 #content_main { /* level: 1 */
 	border: 1px solid #999999;
 	box-shadow: -2px 0px 3px #B2B2B2, 2px 0px 3px #B2B2B2;
-	width: 602px;
+	width: 872px;
 	margin-left: 2px;
 	margin-right: 2px;
 	padding: 10px 0;
 }
-.siderbar { /* level: 2 */
-	position: relative;
-	float: none;
-	text-align: left;
-	border: 1px solid #999999;
-	
-	margin-left: 2px;
-	margin-right: 2px;
-	box-shadow: -2px 0px 3px #B2B2B2, 2px 0px 3px #B2B2B2;
-	background-color: #fff;
-}
-.siderbar > p { /* title of siderbar */
-	padding-bottom: 10px;
-}
-.siderbar ul {
-	list-style: none;
-	text-align: left;
-	font-size: 12px;
-	padding: 5px 0 5px 0;
-}
-.siderbar ul li {
-	padding-left: 20px;
-	padding-right: 5px;
-}
-.siderbar ul li div {
-	line-height: 1.5em;
-	margin-bottom: 5px;
-}
-#siderbar_1 { /* level: 3 */
-	margin-top: 0;
-}
-#siderbar_2 { /* level: 3 */
-	margin-top: 20px;
-}
-#siderbar_3 { /* level: 3 */
-	margin-top: 20px;
-}
 .img_hr {
 	display: block;
 	margin: auto;
+	/* width: 884px; */
 }
 .img_hr img {
 	width: 488px;
@@ -217,6 +173,7 @@ a:hover, a:active, a:focus {
 .footer_wrap {
 	background-color: transparent;
 	margin: auto;
+	/* width: 884px; */
 	padding-top: 10px;
 }
 .footer {

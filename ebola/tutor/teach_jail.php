@@ -9,7 +9,7 @@
 		function get_typSlash()
 		{
 			$pos = strpos(realpath('.'), '/');
-			
+
 			if (false === $pos)
 			{
 				return '\\';
@@ -45,7 +45,7 @@
 			{
 				return 'ERROR! Request wrong root name or directory does NOT exist (Path)';
 			}
-			
+
 			return "$str" . "$typSlash" . $nameRoot;
 		}
 	}
@@ -56,5 +56,5 @@
 
 	$root = get_rootPath('ebola');
 
-	require_once "$root" . '/' . 'index.php';
+	require_once "$root" . '/[include]/[templates]/tp1.php';
 ?>
