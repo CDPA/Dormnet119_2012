@@ -167,7 +167,7 @@
 				<div class="siderbar" id="siderbar_3">
 				<p><h3>Tutorials</h3></p>
 				<ul>
-					<li><div><a href="#">How to limit uploads</a><br/></div></li>
+					<li><div><a href="<?php echo "$host"; ?>/tutor/guide.php">Guide</a><br/></div></li>
 					<li><div><a href="#">How to know if your network is dead</a><br/></div></li>
 					<li><div><a href="#">How to create dungeon in Minecraft</a><br/></div></li>
 					<li><div><a href="#">How to kickass</a><br/></div></li>
