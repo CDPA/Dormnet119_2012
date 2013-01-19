@@ -125,6 +125,7 @@
 		
 		<div id="header_nav">
 			<ul>
+				<li><div id="OP_header_nav_home_outer"><div id="OP_header_nav_home_inner"><a href="<?php echo "$host"; ?>/index.php" id="OP_header_nav_home_inner"><img id="img_home" src="<?php echo "$host"; ?>/[include]/[images]/main/home.png"></a></div></div></li>
 				<li><div><div><a href="<?php echo "$host"; ?>/repair/guide.php">Repair</a></div></div></li>
 				<li><div><div><a href="#">Search</a></div></div></li>
 			</ul>
