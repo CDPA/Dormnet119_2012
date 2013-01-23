@@ -91,6 +91,7 @@ a:hover, a:active, a:focus {
 	background-color: transparent; /* inner sep color */
 	height: 50px;
 	width: 100px;
+	margin: 0;
 }
 #header_nav ul li > div > div {
 	background-color: transparent; /* real on UI */
