@@ -1,5 +1,5 @@
 
-@ Try to find a way to make header animated
+@ Make a minecraft background repair page
 
 
 
@@ -9,3 +9,4 @@ Minimalist, simple, compact, simple colors
 
 easy layout, compatible resolusion
 
+MINECRAFT theme

@@ -106,15 +106,10 @@
 <link href="<?php echo "$host"; ?>/[include]/[css]/main.css" rel="stylesheet" type="text/css" />
 <!--  <link href="<?php echo "$host"; ?>/[include]/[css]/DEBUG_layout.css" rel="stylesheet" type="text/css" />
 -->
-
-<!-- Include JavaScripts -->
-<script type="text/javascript" src="<?php echo "$host"; ?>/[include]/[scripts]/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="<?php echo "$host"; ?>/[include]/[scripts]/main.js"></script>
 </head>
-
 <body>
 
-<!-- @start .banner -->
+<!-- @start .header_canvas -->
 <div class="header_canvas">
 	<div class="header_wrap">
 		<div id="header_logo">
@@ -122,7 +117,7 @@
 				<img alt="Home" src="<?php echo "$host"; ?>/[include]/[images]/main/logo.png">
 			</a>
 		</div>
-		
+
 		<div id="header_nav">
 			<ul>
 				<li><div id="OP_header_nav_home_outer"><div id="OP_header_nav_home_inner"><a href="<?php echo "$host"; ?>/index.php" id="OP_header_nav_home_inner"><img id="img_home" src="<?php echo "$host"; ?>/[include]/[images]/main/home.png"></a></div></div></li>
@@ -132,14 +127,14 @@
 		</div>
 	</div>
 </div>
-<!-- @end .banner --> 
+<!-- @end .header_canvas -->
 
 <!-- @start .bodyCanvas -->
-<div class="bodyCanvas"> 
+<div class="bodyCanvas">
 	<!-- @start .wrapper -->
-	<div class="wrapper"> 
+	<div class="wrapper">
 		<!-- @start .container -->
-		<div class="container"> 
+		<div class="container">
 			<!-- @start .container content -->
 			<div class="content" id="content_leftNav">
 				
@@ -174,9 +169,8 @@
 					<li><div><a href="#">How to download free HD porn vid</a><br/></div></li>
 				</ul>
 				</div>
-				
 			</div>
-			<!-- @end .container content --> 
+			<!-- @end .container content -->
 			
 			<!-- @start .container contents -->
 			<div class="content" id="content_main">
@@ -201,29 +195,31 @@
 					require_once dirname("$root") . '/' . $str;
 				?>
 			</div>
-			<!-- @end .container contents --> 
-			
-		</div>
-		<!-- @end .container --> 
-		
-	</div>
-	<!-- @end .wrapper --> 
+			<!-- @end .container contents -->
 
-	<div class="img_hr" align="middle">
+		</div>
+		<!-- @end .container -->
+
+	</div>
+	<!-- @end .wrapper -->
+
+	<div class="img_hr" align="center">
 		<img src="<?php echo "$host"; ?>/[include]/[images]/main/hr_gray.png">
 	</div>
-	
-	<!-- @start .footer_wrap -->
-	<div class="footer_wrap">
-		<div class="footer">
-			<a href="#">Home</a> | <a href="#">Products</a> | <a href="#">Services</a> | <a href="#">About Us</a> | <a href="#">Contact Us</a> | <a href="#">Site Map</a> | <a href="#">Privacy</a><br />
-			<br />
-			Copyright 2012 NSYSU-CDPA. All Rights Reserved. <img src="" width="1" /> 
-		</div>
+
+	<!-- @start .footer -->
+	<div class="footer">
+		<a href="#">Home</a> • <a href="#">Products</a> • <a href="#">Services</a> • <a href="#">About Us</a> • <a href="#">Contact Us</a> • <a href="#">Site Map</a> • <a href="#">Privacy</a><br />
+		<br />
+		Copyright ® 2013 NSYSU-CDPA. All Rights Reserved. <img src="" width="1" /> 
 	</div>
-	<!-- @end .footer_wrap --> 
+	<!-- @end .footer --> 
 </div>
 <!-- @end .bodyCanvas -->
 
 </body>
+
+<!-- Include JavaScripts -->
+<script type="text/javascript" src="<?php echo "$host"; ?>/[include]/[scripts]/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="<?php echo "$host"; ?>/[include]/[scripts]/main.js"></script>
 </html>

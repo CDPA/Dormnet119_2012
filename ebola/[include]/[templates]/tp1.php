@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 
+<!-- [Info.]
+This template is for REPAIR
+
+-->
+
 <?php // [Info.] Function prototypes
 
 	//--------------------------------------------------
@@ -106,15 +111,10 @@
 <link href="<?php echo "$host"; ?>/[include]/[css]/tp1.css" rel="stylesheet" type="text/css" />
 <!--  <link href="<?php echo "$host"; ?>/[include]/[css]/DEBUG_layout.css" rel="stylesheet" type="text/css" />
 -->
-
-<!-- Include JavaScripts -->
-<script type="text/javascript" src="<?php echo "$host"; ?>/[include]/[scripts]/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="<?php echo "$host"; ?>/[include]/[scripts]/main.js"></script>
 </head>
-
 <body>
 
-<!-- @start .banner -->
+<!-- @start .header_canvas -->
 <div class="header_canvas">
 	<div class="header_wrap">
 		<div id="header_logo">
@@ -132,7 +132,7 @@
 		</div>
 	</div>
 </div>
-<!-- @end .banner -->
+<!-- @end .header_canvas -->
 
 <!-- @start .bodyCanvas -->
 <div class="bodyCanvas">
@@ -171,21 +171,23 @@
 	</div>
 	<!-- @end .wrapper -->
 
-	<div class="img_hr" align="middle">
+	<div class="img_hr" align="center">
 		<img src="<?php echo "$host"; ?>/[include]/[images]/main/hr_gray.png">
 	</div>
 
-	<!-- @start .footer_wrap -->
-	<div class="footer_wrap">
-		<div class="footer">
-			<a href="#">Home</a> | <a href="#">Products</a> | <a href="#">Services</a> | <a href="#">About Us</a> | <a href="#">Contact Us</a> | <a href="#">Site Map</a> | <a href="#">Privacy</a><br />
-			<br />
-			Copyright 2012 NSYSU-CDPA. All Rights Reserved. <img src="" width="1" />
-		</div>
+	<!-- @start .footer -->
+	<div class="footer">
+		<a href="#">Home</a> • <a href="#">Products</a> • <a href="#">Services</a> • <a href="#">About Us</a> • <a href="#">Contact Us</a> • <a href="#">Site Map</a> • <a href="#">Privacy</a><br />
+		<br />
+		Copyright ® 2013 NSYSU-CDPA. All Rights Reserved. <img src="" width="1" /> 
 	</div>
-	<!-- @end .footer_wrap -->
+	<!-- @end .footer --> 
 </div>
 <!-- @end .bodyCanvas -->
 
 </body>
+
+<!-- Include JavaScripts -->
+<script type="text/javascript" src="<?php echo "$host"; ?>/[include]/[scripts]/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="<?php echo "$host"; ?>/[include]/[scripts]/main.js"></script>
 </html>

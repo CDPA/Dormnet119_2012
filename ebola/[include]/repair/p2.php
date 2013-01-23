@@ -2,6 +2,8 @@
 <?php	// [Info.] The following code will be included in main page : div class "content"
 ?>
 
+<link href="p2.css" rel="stylesheet" type="text/css" />
+
 
 <center>
 	<div>			
