@@ -104,12 +104,12 @@
 		        <div>
 			<hr/>
 			<table>
-			<tr><a href="#XP">Windows XP</a><tr/>
-			<tr><a href="#WIN7">Windows 7</a><tr/>
-			<tr><a href="#WIN8">Windows 8</a><tr/>
-			<tr><a href="#MAC">MAC OS</a><tr/>
-			<tr><a href="#Ubuntu">Linux Ubuntu</a><tr/>
-			<table/>
+					<td><a href="#XP">Windows XP</a></td>
+					<td><a href="#WIN7">Windows 7</a></td>
+					<td><a href="#WIN8">Windows 8</a></td>
+					<td><a href="#MAC">MAC OS</a></td>
+					<td><a href="#Ubuntu">Linux Ubuntu</a></td>
+			</table>
 			<hr/>
 			<ul>
 				<!--Windows XP-->
