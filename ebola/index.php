@@ -209,9 +209,11 @@
 
 	<!-- @start .footer -->
 	<div class="footer">
-		<a href="#">Home</a> • <a href="#">Products</a> • <a href="#">Services</a> • <a href="#">About Us</a> • <a href="#">Contact Us</a> • <a href="#">Site Map</a> • <a href="#">Privacy</a><br />
-		<br />
-		Copyright ® 2013 NSYSU-CDPA. All Rights Reserved. <img src="" width="1" /> 
+		<p>
+			<a href="#">Home</a> • <a href="#">Products</a> • <a href="#">Services</a> • <a href="#">About Us</a> • <a href="#">Contact Us</a> • <a href="#">Site Map</a> • <a href="#">Privacy</a><br />
+			<br />
+			Copyright ® 2013 NSYSU-CDPA. All Rights Reserved.
+		</p>
 	</div>
 	<!-- @end .footer --> 
 </div>

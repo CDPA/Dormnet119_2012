@@ -189,5 +189,8 @@ a:hover, a:active, a:focus {
 	width: 888px;
 	font-size: 12px;
 	text-align: left;
-	padding: 20px 10px 50px 10px;
+	padding: 20px 0 50px 0;
+}
+.footer p {
+	padding-left: 10px;
 }
