@@ -18,6 +18,6 @@
 			<input type="submit" value="else???">
 		</form>
 		
-		<form action="teach_index.php" >
+		<form action="guide.php" >
 			<input type="submit" value="BACK">
 		</form>

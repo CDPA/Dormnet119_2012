@@ -103,11 +103,14 @@
 		</form>
         <div>
 			<hr/>
-			<a href="#XP">Windows XP</a><br/>
-			<a href="#WIN7">Windows 7</a><br/>
-			<a href="#WIN8">Windows 8</a><br/>
-			<a href="#MAC">MAC OS</a><br/>
-			<a href="#Ubuntu">Linux Ubuntu</a>
+			<table>
+			<tr><a href="#XP">Windows XP</a><tr/>
+			<tr><a href="#WIN7">Windows 7</a><tr/>
+			<tr><a href="#WIN8">Windows 8</a><tr/>
+			<tr><a href="#MAC">MAC OS</a><tr/>
+			<tr><a href="#Ubuntu">Linux Ubuntu</a><tr/>
+			<table/>
+			<hr/>
 			<ul>
 				<!--Windows XP-->
 				<li>
