@@ -2,14 +2,14 @@
 
 html {
 	background: #D5D6E5;
-	height: fill;
-	width: fill;
+	height: 100%;
+	width: 100%;
 }
 body {
  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d5d6e5', GradientType=0 ); /* IE6-9 */
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	height: fill;
-	width: fill;
+	height: 100%;
+	width: 100%;
 }
 h1, h2, h3, p, span {
 	padding-left: 20px;
@@ -136,14 +136,14 @@ a:hover, a:active, a:focus {
 	background: linear-gradient(to bottom, #e8e9f7 0%, #e8e9f7 30%, #d5d6e5 100%, #ffffff 200px, #d5d6e5 500px); /* W3C */
  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e9f7', endColorstr='#d5d6e5', GradientType=0 ); /* IE6-8 */
 	
-	height: inherit;
+	position: relative;
 	margin: 50px 0;
-	width: inherit;
+	min-height: 100%;
 }
 /* wrapper -> container -> (content...) */
 #wrapper {
-	display: block;
 	margin: 50px 5px 0 5px;
+	padding-bottom: 150px; /* height of footer + gap height */
 	background-color: transparent;
 }
 #breadcrumb {
@@ -207,10 +207,9 @@ a:hover, a:active, a:focus {
 #footer_wrap {
 	background-color: #AEB7B7;
 	position: absolute;
-	display: inline-block;
-	width: fill;
+	bottom: 0;
+	width: 100%;
 	height: 120px;
-	margin-top: 50px;
 }
 #footer {
 	margin: 0 auto;

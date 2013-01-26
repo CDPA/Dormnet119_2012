@@ -129,14 +129,14 @@ a:hover, a:active, a:focus {
 	background: linear-gradient(to bottom, #e8e9f7 0%, #e8e9f7 30%, #d5d6e5 100%, #ffffff 200px, #d5d6e5 500px); /* W3C */
  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e9f7', endColorstr='#d5d6e5', GradientType=0 ); /* IE6-8 */
 	
-	height: inherit;
+	position: relative;
 	margin: 50px 0;
-	width: inherit;
+	min-height: 100%;
 }
 /* wrapper -> container -> (content...) */
 #wrapper {
-	display: block;
 	margin: 50px 5px 0 5px;
+	padding-bottom: 150px; /* height of footer + gap height */
 	background-color: transparent;
 }
 #container {
@@ -155,6 +155,7 @@ a:hover, a:active, a:focus {
 /* content -> (leftNav -> (many siderbars...) ), main */
 .content { /* level: 0 */
 	position: relative;
+	margin: 10px 0;
 	float: left;
 	text-align: left;
 	background-color: #fff;
@@ -216,11 +217,9 @@ a:hover, a:active, a:focus {
 #footer_wrap {
 	background-color: #AEB7B7;
 	position: absolute;
-	display: inline-block;
+	bottom: 0;
 	width: 100%;
 	height: 120px;
-	margin-top: 50px;
-	padding: 0;
 }
 #footer {
 	margin: 0 auto;
