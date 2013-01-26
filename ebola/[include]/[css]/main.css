@@ -2,14 +2,14 @@
 
 html {
 	background: #D5D6E5;
-	height: fill;
-	width: fill;
+	height: 100%;
+	width: 100%;
 }
 body {
  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d5d6e5', GradientType=0 ); /* IE6-9 */
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	height: fill;
-	width: fill;
+	height: 100%;
+	width: 100%;
 }
 h1, h2, h3, p, span {
 	padding-left: 20px;
@@ -32,7 +32,7 @@ a:visited {
 a:hover, a:active, a:focus {
 	text-decoration: underline;
 }
-.header_canvas {
+#header_canvas {
 	/* Ultimate CSS Gradient Generator */
 	background: #2a6aaa; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -50,10 +50,10 @@ a:hover, a:active, a:focus {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	min-width: 396px;
+	min-width: 288px;
 	z-index: 100;
 }
-.header_wrap {
+#header_wrap {
 	background-color: transparent;
 	margin: auto;
 	width: 888px;
@@ -69,7 +69,7 @@ a:hover, a:active, a:focus {
 }
 #header_nav {
 	position: relative;
-	background-color: transparent; /* outer sep color */
+	background-color: transparent;
 	float: right;
 	margin-right: 10px;
 	height: 50px;
@@ -81,44 +81,34 @@ a:hover, a:active, a:focus {
 	padding-left: 3px;
 }
 #header_nav ul li {
-	background-color: transparent; /* outer sep color */
+	background-color: transparent;
 	position: relative;
 	display: inline;
 	float: left;
 	padding-right: 3px;
 }
-#header_nav ul li > div { /* acts as background of next div */
-	background-color: transparent; /* inner sep color */
+#header_nav ul li > div { /* acts as background */
+	background-color: transparent;
 	height: 50px;
 	width: 100px;
 	margin: 0;
 }
-#header_nav ul li > div > div {
-	background-color: transparent; /* real on UI */
-	height: 50px;
-	width: 98px;
-	margin: 0 auto;
-}
-#header_nav ul li > div > div a:hover {
+#header_nav ul li > div a:hover {
 	background-color: #605C57;
 	color: #F2F3FF;
 }
-#header_nav ul li div > div a {
+#header_nav ul li > div a {
 	color: #D7D8E5;
 	font-size: 18px;
 	display: block;
 	text-decoration: none;
 	padding-top: 12px;
 	padding-bottom: 13px;
-	width: 98px;
+	width: 100px;
 }
-#OP_header_nav_home_outer {
+#header_nav .OP_header_nav_home {
+	visibility: hidden;
 	width: 42px !important;
-	padding: 0px !important; /* for overriding #header_nav a */
-	height: 50px !important;
-}
-#OP_header_nav_home_inner {
-	width: 40px !important;
 	padding: 0px !important; /* for overriding #header_nav a */
 	height: 50px !important;
 }
@@ -126,7 +116,7 @@ a:hover, a:active, a:focus {
 	margin-top: 8px !important; /* override */
 }
 /* bodyCanvas contains two major ele: wrapper and footer */
-.bodyCanvas {
+#bodyCanvas {
 	/* Ultimate CSS Gradient Generator */
 	background: #e8e9f7; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -140,16 +130,16 @@ a:hover, a:active, a:focus {
  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e9f7', endColorstr='#d5d6e5', GradientType=0 ); /* IE6-8 */
 	
 	height: inherit;
-	margin: 0;
+	margin: 50px 0;
 	width: inherit;
 }
 /* wrapper -> container -> (content...) */
-.wrapper {
+#wrapper {
 	display: block;
 	margin: 50px 5px 0 5px;
 	background-color: transparent;
 }
-.container {
+#container {
 	border: 0;
 	overflow: hidden;
 	width: 888px;
@@ -176,6 +166,8 @@ a:hover, a:active, a:focus {
 	background-color: transparent;
 }
 #content_main { /* level: 1 */
+	background-image: url('/dormnet119_2012/ebola/[include]/[images]/main/pattern_creamdust.png');
+	background-repeat: repeat;
 	border: 1px solid #999999;
 	box-shadow: -2px 0px 3px #B2B2B2, 2px 0px 3px #B2B2B2;
 	width: 602px;
@@ -184,6 +176,8 @@ a:hover, a:active, a:focus {
 	padding: 10px 0;
 }
 .siderbar { /* level: 2 */
+	background-image: url('/dormnet119_2012/ebola/[include]/[images]/main/pattern_honey.png');
+	background-repeat: repeat;
 	position: relative;
 	float: none;
 	text-align: left;
@@ -219,21 +213,29 @@ a:hover, a:active, a:focus {
 #siderbar_3 { /* level: 3 */
 	margin-top: 20px;
 }
-.img_hr {
-	display: block;
+#footer_wrap {
+	background-color: #AEB7B7;
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	height: 120px;
+	margin-top: 50px;
+	padding: 0;
 }
-.img_hr img {
-	width: 488px;
-	height: 1px;
-}
-.footer {
-	background-color: transparent;
+#footer {
 	margin: 0 auto;
 	width: 888px;
 	font-size: 12px;
 	text-align: left;
-	padding: 20px 0 50px 0;
+	padding-top: 30px;
 }
-.footer p {
-	padding-left: 10px;
+#footer a {
+	color: #262626;
 }
+#footer img {
+	position: absolute;
+	overflow: hidden;
+	top: -42px;
+	margin-left: 721px;
+}
+

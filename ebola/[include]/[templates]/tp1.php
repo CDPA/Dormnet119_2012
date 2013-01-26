@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!-- [Info.]
-This template is for REPAIR
+This template is for REPAIR, SEARCH, SUPPORT
 
 -->
 
@@ -108,26 +108,40 @@ This template is for REPAIR
 <title>Dorm-net 119</title>
 
 <!-- Include CSS -->
-<link href="<?php echo "$host"; ?>/[include]/[css]/tp1.css" rel="stylesheet" type="text/css" />
-<!--  <link href="<?php echo "$host"; ?>/[include]/[css]/DEBUG_layout.css" rel="stylesheet" type="text/css" />
+<link href="/dormnet119_2012/ebola/[include]/[css]/tp1.css" rel="stylesheet" type="text/css" />
+<!--  <link href="/dormnet119_2012/ebola/[include]/[css]/DEBUG_layout.css" rel="stylesheet" type="text/css" />
 -->
 </head>
 <body>
 
 <!-- @start .header_canvas -->
-<div class="header_canvas">
-	<div class="header_wrap">
+<div id="header_canvas">
+	<div id="header_wrap">
 		<div id="header_logo">
-			<a href="<?php echo "$host"; ?>/" title="Home">
-				<img alt="Home" src="<?php echo "$host"; ?>/[include]/[images]/main/logo.png">
+			<a href="/dormnet119_2012/ebola/index.php" title="Home">
+				<img alt="Home" src="/dormnet119_2012/ebola/[include]/[images]/main/logo.png">
 			</a>
 		</div>
 
 		<div id="header_nav">
 			<ul>
-				<li><div id="OP_header_nav_home_outer"><div id="OP_header_nav_home_inner"><a href="<?php echo "$host"; ?>/index.php" id="OP_header_nav_home_inner"><img id="img_home" src="<?php echo "$host"; ?>/[include]/[images]/main/home.png"></a></div></div></li>
-				<li><div><div><a href="<?php echo "$host"; ?>/repair/guide.php">Repair</a></div></div></li>
-				<li><div><div><a href="#">Search</a></div></div></li>
+				<li>
+					<div class="OP_header_nav_home">
+					<a href="/dormnet119_2012/ebola/index.php" class="OP_header_nav_home">
+					<img id="img_home" src="/dormnet119_2012/ebola/[include]/[images]/main/home.png">
+					</a></div></li>
+				<li>
+					<div>
+					<a href="/dormnet119_2012/ebola/repair/guide.php">Repair
+					</a></div></li>
+				<li>
+					<div>
+					<a href="/dormnet119_2012/ebola/search/guide.php">Search
+					</a></div></li>
+				<li>
+					<div>
+					<a href="/dormnet119_2012/ebola/support/guide.php">Support
+					</a></div></li>
 			</ul>
 		</div>
 	</div>
@@ -135,11 +149,16 @@ This template is for REPAIR
 <!-- @end .header_canvas -->
 
 <!-- @start .bodyCanvas -->
-<div class="bodyCanvas">
+<div id="bodyCanvas">
 	<!-- @start .wrapper -->
-	<div class="wrapper">
+	<div id="wrapper">
 		<!-- @start .container -->
-		<div class="container">
+		<div id="container">
+			<div id="breadcrumb">
+				<ul>
+				</ul>
+			</div>
+		
 			<!-- @start .container contents -->
 			<div class="content" id="content_main">
 				<?php // [Info.] Require contents in other files
@@ -170,18 +189,16 @@ This template is for REPAIR
 
 	</div>
 	<!-- @end .wrapper -->
-
-	<div class="img_hr" align="center">
-		<img src="<?php echo "$host"; ?>/[include]/[images]/main/hr_gray.png">
-	</div>
-
+	
 	<!-- @start .footer -->
-	<div class="footer">
-		<p>
-			<a href="#">Home</a> • <a href="#">Products</a> • <a href="#">Services</a> • <a href="#">About Us</a> • <a href="#">Contact Us</a> • <a href="#">Site Map</a> • <a href="#">Privacy</a><br />
-			<br />
-			Copyright ® 2013 NSYSU-CDPA. All Rights Reserved.
-		</p>
+	<div id="footer_wrap">
+		<div id="footer">
+			<p>
+				<a href="#">Home</a> • <a href="#">Products</a> • <a href="#">Services</a> • <a href="#">About Us</a> • <a href="#">Contact Us</a> • <a href="#">Site Map</a> • <a href="#">Privacy</a><br />
+				<br />
+				® 2013 NSYSU-CDPA. All Rights Reserved.
+			</p>
+		</div>
 	</div>
 	<!-- @end .footer --> 
 </div>
@@ -190,6 +207,6 @@ This template is for REPAIR
 </body>
 
 <!-- Include JavaScripts -->
-<script type="text/javascript" src="<?php echo "$host"; ?>/[include]/[scripts]/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="<?php echo "$host"; ?>/[include]/[scripts]/main.js"></script>
+<script type="text/javascript" src="/dormnet119_2012/ebola/[include]/[scripts]/main/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/dormnet119_2012/ebola/[include]/[scripts]/main/main.js"></script>
 </html>

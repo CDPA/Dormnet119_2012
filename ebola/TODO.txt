@@ -1,12 +1,10 @@
 
-@ Make a minecraft background repair page
-
+@ Rename URL, fix linking
 
 
 our website orientation :
 
 Minimalist, simple, compact, simple colors
-
 easy layout, compatible resolusion
 
 MINECRAFT theme
