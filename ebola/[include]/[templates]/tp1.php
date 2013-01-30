@@ -127,7 +127,7 @@ This template is for REPAIR, SEARCH, SUPPORT
 			<ul>
 				<li>
 					<div class="OP_header_nav_home">
-					<a href="/dormnet119_2012/ebola/index.php" class="OP_header_nav_home">
+					<a href="/dormnet119_2012/ebola/index.php" title="Home" class="OP_header_nav_home">
 					<img id="img_home" src="/dormnet119_2012/ebola/[include]/[images]/main/home.png">
 					</a></div></li>
 				<li>

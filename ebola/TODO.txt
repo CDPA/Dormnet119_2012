@@ -1,6 +1,11 @@
 
-@ Rename URL, fix linking
+@ When mouse hover on steve in index page, show a title
 
+
+-----
+About gaming page: dark theme
+
+-----
 
 our website orientation :
 
