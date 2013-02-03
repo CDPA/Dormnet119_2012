@@ -5,7 +5,7 @@ Dormnet119_2012
 Dormnet-119 is a website to serve students in NSYSU dormitory. We're working on a new site with brand new layout and functions. The old one is..uh, too old.
 
 ##Objectives##
-Create a simple and easy-to-use interface for either dumb or expert user to use.
+Create a simple and easy-to-use interface for either dumb or expert users to use.
 
 ##Links##
 ####[Demo]####
