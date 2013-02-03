@@ -164,14 +164,13 @@ a:hover, a:active, a:focus {
 	font-size: 12px;
 }
 #breadcrumb a { /* for links */
-	color: #161616;
+	color: #1D3030;
 	font-size: 16px;
 }
 #breadcrumb span { /* for tail ele */
 	padding: 0;
-	font-size: 16px;
-	font-weight: bold;
-	color: #4C3D00;
+	font-size: 14px;
+	color: #635F51;
 }
 #container {
 	border: 0;
