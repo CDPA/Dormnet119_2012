@@ -1,0 +1,15 @@
+
+Use Notepad++ to open C:\xampp\phpMyAdmin\config.inc.php
+
+by default, line 22 is 
+$cfg['Servers'][$i]['extension'] = 'mysql';
+
+change it to
+$cfg['Servers'][$i]['extension'] = 'mysqli';
+
+
+
+see the difference? there is an extra 'i' at the end
+
+save this file, reload phpMyAdmin, it should work
+
