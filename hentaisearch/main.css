@@ -1,0 +1,74 @@
+@charset "utf-8";
+.box {
+	border: medium none #999;
+	position: inherit;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+	text-align: left;
+	display: inline-block;
+
+}
+
+
+.box-image {
+    height: 100px;
+	width: 100px;
+		overflow: hidden;
+	display: inline-block;
+}
+
+.list {
+	 position:relative;
+	 display: inline-block;
+	 width:33%;
+	 height:50%;
+    top: 50%;
+	 right:0;
+	 bottom:0; 
+	 left:0;  
+	  margin:0 auto;
+	  float:left;
+}
+.list :hover {
+	-webkit-transition: all 0.5s ease-in-out;
+;
+	-webkit-transform:scale(10,10) translate(0%,0%);
+	opacity: 0.1;
+
+}
+/*
+.list .box-image:hover {
+	-webkit-transition: all 0.5s ease-in-out;
+;
+	-webkit-transform:scale(10,10) translate(0%,0%);
+	opacity: 0.1;
+}*/
+
+.list .box-image{
+/*	background: url('bb.png') 0px 0px no-repeat;*/
+	background-color:#F00;
+	border-radius:50%;
+	-webkit-transition: all 0.1s ease-in-out;
+	position: relative;
+	
+}
+
+
+.list .box-content{
+	position:relative;
+}
+
+#l {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 24px;
+	position: absolute;
+	display: run-in;
+	top: 30px;
+	left: 10px;
+	text-align:center;
+
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+
+	
+}
