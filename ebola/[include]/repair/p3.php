@@ -1,13 +1,13 @@
-
+я╗┐
 <?php	// [Info.] The following code will be included in main page : div class "content"
 ?>
 
 
 <center>
 	<div>			
-		<BUTTON onclick="self.location.href='p1.php'">лe╕m└╦мd</BUTTON>
-		<BUTTON onclick="self.location.href='p2.php'">╢ё│°н╫│ц</BUTTON>
-		<BUTTON onclick="self.location.href='p3.php'">зя│°н╫│ц</BUTTON>
+		<BUTTON onclick="self.location.href='p1.php'">хЙНч╜оцквцЯе</BUTTON>
+		<BUTTON onclick="self.location.href='p2.php'">хблха▒ф┐охЦо</BUTTON>
+		<BUTTON onclick="self.location.href='p3.php'">цФ╣ха▒ф┐охЦо</BUTTON>
 	</div>
 	<hr>
 </center>
