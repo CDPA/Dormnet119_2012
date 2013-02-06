@@ -22,8 +22,8 @@ Create a simple and easy-to-use interface for either dumb or expert users to use
 ####[Tools]####
 [Online Markdown Editor] [lnk4] <br/>
 
-[uml1]: http://www.lucidchart.com/invitations/accept/510e575b-0b9c-4eee-b33e-19c30a000fde
-[uml2]: http://www.lucidchart.com/invitations/accept/51126f88-0f4c-4414-a581-493b0a004234
+[uml1]: https://www.lucidchart.com/documents/view/4e89-de04-510e3973-b3f6-21720a000111
+[uml2]: https://www.lucidchart.com/documents/view/4d8d-5420-51126ecf-a728-34b60a004d18
 
 [lnk1]: http://vyew.com/room#/786488/Dormnet_119_layout
 
