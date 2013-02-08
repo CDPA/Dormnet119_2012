@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* 改日再來改*/
+
+#lol{
+display:none;
+overflow: hidden;
+}
+
+section{
+font-family: 'MS UI Gothic';
+color: #3f3f3f;
+text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
+display: block;
+}
+
+span{
+padding:0px 0px 0px 0px;
+}
+
+.ssection{
+text-align: center;
+width:99%;
+float:left;
+margin:1px auto 1px;
+border:2px solid #aaa;
+border-radius:8px;
+background:#eee;
+}
+
+.scontent{
+/*display:inline-block;*/
+text-align:left;
+background:#eee;
+}
+
+.hiddiv{
+	overflow:hidden;
+	position: absolute;
+	height: 322px;
+	width:632px;
+	right:0px;	
+	top: 0px;
+}
+#hand{
+	background: transparent url("../search/pointing_hand.png") 0 0 no-repeat;
+	position: relative;
+	height: 322px;
+	width:632px;
+	z-index:21;
+	left: 632px;
+}
+		
+#sc3{
+background:rgba(256,256,256,0.8);
+font-family: "MS UI Gothic";
+font-size: larger;
+font-stretch: semi-expanded;
+font-weight: bolder;
+border: 1px solid #aaa;
+border-radius: 10px;
+}
+
+td:nth-child(1){
+width:20%;
+border-radius: 8px;
+}
+td:nth-child(2){
+width:50%;
+border-radius: 8px;
+}
+
+td:nth-child(3){
+width:30%;
+border-radius: 8px;
+}
+
+tr:nth-child(even) {
+	background: rgba(0,0,0,0.8);
+	color:white;
+}
+tr:hover{
+font-family:"Microsoft JhengHei", "PMingLiU","meriyo";
+background-color:white;
+color:black;
+border:1px solid #aaa;
+border-radius:0;
+}
+
+
+.impact{
+font-family: Impact, sans-serif;
+font-size:200%;
+}
+
+#ninja_walk {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	top: 300px;
+	background: transparent url("../search/rudolf_0.bmp") 0 0 no-repeat;
+}
+
+#firen_run {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	top: 300px;
+	background: transparent url("../search/firen_2.png") 0 0 no-repeat;
+}
+
+input[type='submit']
+{
+color:#FFF;
+}
+
+/* Project:blin blin */
+/*
+input[type='submit']
+{
+border-image-source:
+}*/
+
+
+
+/* end of blin blin*/
+
+

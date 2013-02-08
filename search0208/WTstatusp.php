@@ -28,15 +28,18 @@ if (isset($_POST['sn']))
 	}
 else
 {
-/* "<span id=\"s1c\" class=\"scontent\"><div class=\"imapct\"></div>,'" */
+	echo '<a1>id</a1><a2>Serial Number</a2><a3>From</a3><a4>Content</a4><a5>MSG</a5><a6>Report Date</a6><a7>End Date</a7><br/>';
+	do
+	{
 
-/*<div class="imapct" style="background:rgba(0,0,0,0.6);color:white; text-align:center;display:block">::Blacklist:: (Only last 10 will be displayed)::</div>
-				<colgroup><col/><col/><col/></colgroup><tr><td>IP</td><td>Reason</td><td>Start at</td></tr> */
-	echo '<span id="s1c" class="scontent"><div class="impact"><tr><td>You @',$row[5],' Said:<br/>',$row[3],'<br/>';
-	if ( isset($row[4]) )
-	echo '----------</br>GM @',$row[6],' Said:<br/>',$row[4],'</div></span>';
-	else
-	echo 'No news|-)</div></span>';
+	for( $i=0; $i< 7; ++$i ) {
+
+	echo '<a'.$i.'>'.$row[$i] . '</a'.$i.'>';
+	}
+
+	echo '<br/>';
+	}while($row = mysql_fetch_array($result));
+
 	}
 }
 
