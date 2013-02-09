@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 3.5.2
+- http://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Feb 09, 2013 at 04:13 AM
+- Server version: 5.5.25a
+- PHP Version: 5.4.4
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="dude" collation="utf8_bin" charset="utf8">
+            <pma:table name="jail">
+                CREATE TABLE `jail` (
+                  `IP` text COLLATE utf8_bin NOT NULL,
+                  `Reason` text COLLATE utf8_bin NOT NULL,
+                  `Start_time` date NOT NULL,
+                  `End_time` date NOT NULL,
+                  `Operator` text COLLATE utf8_bin NOT NULL,
+                  `__EXT1__` int(11) NOT NULL,
+                  `__EXT2__` int(11) NOT NULL,
+                  `__EXT3__` int(11) NOT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+            </pma:table>
+            <pma:table name="repair">
+                CREATE TABLE `repair` (
+                  `id` int(11) NOT NULL,
+                  `Serial_Number` text COLLATE utf8_bin NOT NULL,
+                  `who_asked_(ip_name)` text COLLATE utf8_bin NOT NULL,
+                  `content` text COLLATE utf8_bin NOT NULL,
+                  `message_to_user` text COLLATE utf8_bin NOT NULL,
+                  `start_at` date NOT NULL,
+                  `done?` date NOT NULL DEFAULT '1993-09-16'
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'dude'
+    -->
+    <database name="dude">
+        <!-- Table jail -->
+        <table name="jail">
+            <column name="IP">140.117.182.71</column>
+            <column name="Reason">(test msg)Hiroshi is too handsome</column>
+            <column name="Start_time">2013-01-24</column>
+            <column name="End_time">2013-02-24</column>
+            <column name="Operator">Hiroshi</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">127.0.0.1</column>
+            <column name="Reason">wawawawa</column>
+            <column name="Start_time">2013-01-27</column>
+            <column name="End_time">2013-01-27</column>
+            <column name="Operator">hiroshi0916</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">8.8.8.8</column>
+            <column name="Reason">YOYOYOYO</column>
+            <column name="Start_time">2013-01-27</column>
+            <column name="End_time">2013-01-27</column>
+            <column name="Operator">6109ihsorih</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">d</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">dfg</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">dfg</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">d</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">d</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">dfg</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">dfg</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">d</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">d</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">dfg</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">dfg</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">d</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">d</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">dfg</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">dfg</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">d</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">d</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">dfg</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">dfg</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">d</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">d</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">dfg</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">dfg</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">d</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">d</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">dfg</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">dfg</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">d</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">d</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">dfg</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">dfg</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">d</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">d</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">dfg</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <table name="jail">
+            <column name="IP">dfg</column>
+            <column name="Reason">dfg</column>
+            <column name="Start_time">0000-00-00</column>
+            <column name="End_time">0000-00-00</column>
+            <column name="Operator">d</column>
+            <column name="__EXT1__">0</column>
+            <column name="__EXT2__">0</column>
+            <column name="__EXT3__">0</column>
+        </table>
+        <!-- Table repair -->
+        <table name="repair">
+            <column name="id">0</column>
+            <column name="Serial_Number">aszdfuijhvgo879oiuh3rni</column>
+            <column name="who_asked_(ip_name)">我愛英雄聯盟001@127.0.0.1</column>
+            <column name="content">欸我的網路掛了這樣</column>
+            <column name="message_to_user">ㄎㄎ</column>
+            <column name="start_at">2013-01-27</column>
+            <column name="done?">1993-09-16</column>
+        </table>
+    </database>
+</pma_xml_export>
