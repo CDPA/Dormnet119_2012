@@ -1,4 +1,4 @@
 ﻿
 <?php
-require_once(realpath('..') .  '\[include]\search\main.php');
+require(realpath('..') .  '\[include]\search\main.php');
 ?>

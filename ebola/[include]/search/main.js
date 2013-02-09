@@ -19,6 +19,7 @@ jQ190(window).bind("resize", function()
     document.getElementById("lol").style.width=$(window).width()*0.4 +'px';
 });
 var bb=0;
+var boo=0;
 
 function blinblin(){
 if (bb)
@@ -44,16 +45,17 @@ jQ190(document).ready(function() //when evil 183 is loaded
 
 jQ190('#hand').css('-webkit-transition','left 0.5s linear');
 
-jQ190('#hand').css('left', 632- parseInt(jQ190('#wrapper').css('width')) +parseInt(jQ190('#container').css('width') ) + parseInt(window.getComputedStyle(document.getElementById('container'),null).getPropertyValue('margin-left')) +'px');
+jQ190('#hand').css('left', 610- parseInt(jQ190('#wrapper').css('width')) +parseInt(jQ190('#container').css('width') ) + parseInt(window.getComputedStyle(document.getElementById('container'),null).getPropertyValue('margin-left')) +'px');
 
 setTimeout("jQ190('#wrapper').fadeOut(100)",500);
 setTimeout("jQ190('#hand').css('left','632px')",1000);
-setTimeout("jQ190('#hand').hide()",1500);
+setTimeout("jQ190('.hiddiv').hide()",1500);
 setTimeout("jQ190('#lol').fadeIn(500)",600);
-
 setInterval("blinblin()",250);
-  
-    	jQ190("#s1ff").validate({
+
+setTimeout("jQ190('#wrapper').remove()",600);
+
+      	jQ190("#s1ff").validate({
     			rules: {
     				sn: "required",
     			},
@@ -62,10 +64,30 @@ setInterval("blinblin()",250);
     			},
     			submitHandler: function(form) {
     				jQ190.post('../[include]/search/WTstatusp.php', $("#s1ff").serialize(), function(d) {
-    				if (d == "Not found")
+    				if (d == "Not found") 
     				{
-					jQ190('#s1ff').effect('shake',500);
-    				}
+					if(boo>=11)
+					{
+					jQ163("body").html('<img class="top" src="../[include]/search/trollface.jpg"/>');
+					}				
+					else
+					if ( boo>=9 )
+					{
+					jQ190('div').effect('shake',{times: boo},500);
+					}
+					else 
+					if ( boo>=6 )
+					{
+					jQ190('div').effect('shake',500);
+					}
+					else
+					if ( boo>=3 )
+					{
+					jQ190('img').effect('shake',500);
+					}
+						jQ190('#s1ff').effect('shake',500);
+					boo++;
+					}
     				else if ( d == "Keep trying")
     				{
     				jQ190('#s1btn').val("Keep trying..."+op);
@@ -108,8 +130,3 @@ setInterval("blinblin()",250);
 
 	$=jQ183;//here comes the evil 183 ^Q^
 });
-
-
-
-
-

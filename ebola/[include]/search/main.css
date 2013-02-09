@@ -17,6 +17,7 @@ span{
 padding:0px 0px 0px 0px;
 }
 
+body{overflow:hidden;}
 .ssection{
 text-align: center;
 width:99%;
