@@ -11,6 +11,7 @@ Create a simple and easy-to-use interface for either dumb or expert users to use
 ####[Demo]####
 [UML: Repair Process (#R), Search Process (#S)] [uml1] <br/>
 [UML: Repair Process - Self-test (#RST)] [uml2] <br/>
+[UML: Repair Request form (#RRF)] [uml3] <br/>
 [Vyew - layout (Deprecated)] [lnk1] <br/>
 
 ####[Tutor]####
@@ -24,6 +25,7 @@ Create a simple and easy-to-use interface for either dumb or expert users to use
 
 [uml1]: https://www.lucidchart.com/documents/view/4e89-de04-510e3973-b3f6-21720a000111
 [uml2]: https://www.lucidchart.com/documents/view/4d8d-5420-51126ecf-a728-34b60a004d18
+[uml3]: https://www.lucidchart.com/documents/view/40e0-b3f8-5115b35e-9344-5de30a00093e
 
 [lnk1]: http://vyew.com/room#/786488/Dormnet_119_layout
 
