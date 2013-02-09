@@ -64,11 +64,14 @@ else echo 'Nice to meet you!';
 	if(!$conn)goto wth_exit;
     mysql_query("SET NAMES 'utf8_bin'");
     mysql_select_db($dbname);
-   $sql = 'SELECT * FROM `jail` ORDER BY `Start_time` DESC Limit 10';
+   /* $sql = 'SELECT * FROM `jail` ORDER BY `Start_time` DESC Limit 10';*/
+    $sql = 'SELECT * FROM `jail` ';
     $result = mysql_query($sql);
 	if (!$result)goto wth_exit;
     while($row = mysql_fetch_array($result)){
         echo "<tr><td>".$row['IP']."</td><td>".$row['Reason']."</td><td>".$row['Start_time']."</td></tr>";
+		echo "<tr><td>".$row['IP']."</td><td>".$row['Reason']."</td><td>".$row['Start_time']."</td></tr>";
+		echo "<tr><td>".$row['IP']."</td><td>".$row['Reason']."</td><td>".$row['Start_time']."</td></tr>";
     }
 	
 	wth_exit: /*YAMAHAHAHAHAHAHAHAHAHAHAHAHAHA*/
