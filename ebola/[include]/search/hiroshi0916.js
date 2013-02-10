@@ -154,7 +154,7 @@ for (var i = 0, l = els.length; i < l; i++) {
 	/*p2*/
 	
 	/*p4*/
-	jQ190('#__ip4i1').fastLiveFilter("#__hentai__list",{callback:function(){jQ190('#content_main').css('height',jQ190('#p4').css('height'));}});
+	jQ190('#__ip4i1').fastLiveFilter("#__hentai__list",{callback:function(){jQ190('#content_main').css('height',jQ190(present).css('height'));}});
     /* p5 */
 	jQ190('#__p5t1').tablesorter(); 
 	
