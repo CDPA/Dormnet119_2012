@@ -37,7 +37,7 @@ $p4ts=file('p4_table_sorce.txt',FILE_IGNORE_NEW_LINES);
 			<div id="__idp2t"class="__title">[Enter PIN key or E-mail addr]</div>
 			<div id="PINorE" class="__content boxcenter">
 				<form id="p2f1" action="" method="post">
-					<input type="text" id="p2k1" name="k" class="keyin" placeholder="example@example.com" required />
+					<input type="text" id="p2k1" name="k" class="keyin" required />
 				</form>
 			</div>
 		</div>
@@ -82,7 +82,7 @@ $p4ts=file('p4_table_sorce.txt',FILE_IGNORE_NEW_LINES);
 				?>
 			</div>
 			<div id="__ip4f" class="__content __ip keyin">
-				<input type="text" id="__ip4i1" placeholder="Hey! What's up GG?" />
+				<input type="text" id="__ip4i1" placeholder="Hey!...What's up GG?" />
 			</div>
 			<div class="__content __list __ip">
 				<!--EXAMPLE-->

@@ -144,10 +144,8 @@ for (var i = 0, l = els.length; i < l; i++) {
         el.href = "#";
 		jQ190(el).parent().click(function(){
 		jQ190(present).fadeOut(100);
-		jQ190('#content_main').css('height',jQ190('#p1').css('height'));
 		setTimeout("jQ190('#p1').fadeIn(100)",100);
 		present='#p1';
-		
 		})
 		break;
 		}
