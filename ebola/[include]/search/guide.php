@@ -8,7 +8,6 @@ $IPtable = ["140.117.192.1" => "1001-1","140.117.192.2" => "1001-2","140.117.192
 $p4ts=file('p4_table_sorce.txt',FILE_IGNORE_NEW_LINES);
 ?>
 
-<script type="text/javascript" src="../[include]/search/jquery-1.6.3.min.js"></script>
 <script type="text/javascript" src="../[include]/search/jquery.min.js"></script>
 <script type="text/javascript" src="../[include]/search/jquery.tablesorter.min.js"></script>
 <script type="text/javascript" src="../[include]/search/jquery-ui-1.10.0.custom.min.js"></script>

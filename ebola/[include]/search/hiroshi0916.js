@@ -2,11 +2,7 @@
 	*Filename: hiroshi0916.js
 	*b003040020@nsysu @2013
 */
-
-
-
 	var jQ190=$.noConflict();
-	var jQ163=$.noConflict();
 	var jQ183;
 	var $=jQ190;
 	var present='#p1';
@@ -82,7 +78,7 @@ jQ190(document).ready(function(){ //when evil 183 is loaded
 					k: "required",
     			},
     			messages: {
-					k: "aa",
+					k: "",
     			},
     			submitHandler: function(form){
     				jQ190.post('../[include]/search/__backend.php', jQ190("#p2f1").serialize(), function(d) {
@@ -117,32 +113,7 @@ jQ190(document).ready(function(){ //when evil 183 is loaded
 	
 	
 	/*p1*/
-	/*
-	var interval;
-	jQ190('#__menu').hover(function(){
-	interval=setInterval("jQ190('body').toggleClass('holding')",200);
-	},clearInterval(interval));
-	*//*
-		jQ190('#p1btn1').click(function(){
-	jQ190('#p1').toggleClass('current __standby');
-	jQ190('#p2').toggleClass('current __standby');
-	jQ190('#content_main').css('height',jQ190('#p2').css('height'));
-	});
-	jQ190('#p1btn2').click(function(){
-		jQ190('#p1').toggleClass('current __standby');
-		jQ190('#p4').toggleClass('current __standby');
-		jQ190('#content_main').css('height',jQ190('#p4').css('height'));
-	
-	});
-	jQ190('#p1btn3').click(function(){
-		jQ190('#p1').toggleClass('current __standby');
-		jQ190('#p5').toggleClass('current __standby');
-		jQ190('#content_main').css('height',jQ190('#p5').css('height'));
-	
-	});*/
-	
 
-	
 	jQ190('#p1btn1').click(function(){
 		jQ190('#p1').fadeOut(100);
 		setTimeout("jQ190('#p2').fadeIn(100)",100);
@@ -183,18 +154,11 @@ for (var i = 0, l = els.length; i < l; i++) {
 	/*p2*/
 	
 	/*p4*/
-	jQ190('#__ip4i1').fastLiveFilter("#__hentai__list");
+	jQ190('#__ip4i1').fastLiveFilter("#__hentai__list",{callback:function(){jQ190('#content_main').css('height',jQ190('#p4').css('height'));}});
     /* p5 */
 	jQ190('#__p5t1').tablesorter(); 
 	
 });
-
-	
-			   //190
-			   //now: 163
-   //alert($.fn.jquery);
-    		//$("#ninja_walk").sprite({fps: 8, no_of_frames: 8});
-			/*jQ163("#firen_run").sprite({fps: 12, no_of_frames: 6});*/
 
 
 $=jQ183;//here comes the evil 183 ^Q^
