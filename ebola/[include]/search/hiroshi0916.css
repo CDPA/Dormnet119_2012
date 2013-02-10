@@ -1,0 +1,123 @@
+@charset "utf-8";
+/*
+	*Filename: hiroshi0916.css
+	*b003040020@nsysu @2013
+*/
+/*
+cursor:url(hand_normal.cur) ,default;
+cursor:url(hand_clickable.ani), hand;
+cursor:url(hand1_hold.cur) ,pointer;
+cursor:url(aero_drag.cur), move;
+cursor:url(aero_ew.ani), ew-resize;
+cursor:url(aero_nesw.ani) ,ne-resize;
+cursor:url(aero_ns.ani) ,s-resize;
+cursor:url(aero_nwse.ani) ,nw-resize;*/
+/*
+#content_main{
+height:600px;
+padding:0;
+}*/
+
+.__container{
+width:872px;
+margin:0 auto;
+}
+#content_main{
+min-height:450px;
+}
+
+.__title{
+font-family: Impact, sans-serif;
+font-size:300%;
+text-align:center;
+}
+
+#global{
+
+top:0px;
+left:0px;
+width: 872px;
+}
+
+.page{
+position: absolute;
+top:0px;
+left:0px;
+}
+
+.current{
+display:block;
+}
+
+
+.pass{
+
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+cursor:url(hand_normal.cur) ,default;
+}
+
+.holding {
+cursor:url(hand1_hold.cur) ,default;
+}
+
+#global th{
+font-weight: normal;
+font-size: 13px;
+color: #039;
+text-transform: uppercase;
+border-right: 1px solid #0865c2;
+border-top: 1px solid #0865c2;
+border-left: 1px solid #0865c2;
+border-bottom: 1px solid #fff;
+padding: 20px;
+}
+
+#global .__table,#global ul{
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;
+text-align: left;
+border-collapse: collapse;
+border: 1px solid #6cf;
+margin: 20px;
+}
+#global td{
+color: #669;
+border-right: 1px dashed #6cf;
+padding: 10px 20px;
+}
+#p5,#p4{
+overflow:auto;
+}
+.btn{
+border:1px solid #fff;
+}
+.boxcenter{
+text-align: center;
+}
+
+#__menu .btn:hover{
+border:1px solid #aaa;
+border-radius: 8px;
+
+}
+
+
+thead .header {
+background:url(aero_ns.png) no-repeat;
+/*padding-left: 30px;*/
+}
+
+table .headerSortDown{
+background: url(desc.png) no-repeat;
+}
+
+
+table .headerSortUp{
+background: url(asc.png) no-repeat;
+}
+
+tr:hover{
+background:rgba(127,127,127,0.1);
+}
