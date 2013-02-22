@@ -2,9 +2,9 @@
 if (isset($_POST['k']))
 {
     $dbhost = '127.0.0.1';
-    $dbuser = 'dude';
-    $dbpass = 'HOWDOYOUTURNTHISON';
-    $dbname = 'dude';
+    $dbuser = 'hentai';
+    $dbpass = 'IAMVERYHENTAI!!!';
+    $dbname = 'hentai';
     $conn = mysql_connect($dbhost, $dbuser, $dbpass) or die('Error with MySQL connection');
     mysql_query("SET NAMES utf8");
     mysql_select_db($dbname);
@@ -16,7 +16,7 @@ if (isset($_POST['k']))
 	if( ($hentaistr[$i] <'Z' || $hentaistr[$i] >'A') && ($hentaistr[$i] <'a' || $hentaistr[$i] >'z') && ($hentaistr[$i] < '0' || $hentaistr[$i] > '9') &&$hentaistr[$i]!='@'&&$hentaistr[$i]!='_' && $hentaistr[$i]!='.') die('badass');
 	}
 
-	$sql = "SELECT * FROM `repair` WHERE `Serial_Number` LIKE '". $hentaistr ."' LIMIT 0, 30 ";
+	$sql = "SELECT * FROM `namae` WHERE `email` LIKE '". $hentaistr . " or `sn` LIKE'". $hentaistr . "' LIMIT 0, 30 ";
 
 
 	$result = mysql_query($sql) or die('MySQL query error');
