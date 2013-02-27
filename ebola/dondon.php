@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST['k']))
+if (isset($_GET['k']))
 {
     $dbhost = '127.0.0.1';
     $dbuser = 'hentai';
@@ -9,13 +9,14 @@ if (isset($_POST['k']))
     mysql_query("SET NAMES utf8");
     mysql_select_db($dbname);
 
-	$hentaistr= $_POST['k'];
+//	$hentaistr= $_POST['k'];
 	/* wangch method */
-	for($i=0; $i <strlen($hentaistr); ++$i )
+	/*for($i=0; $i <strlen($hentaistr); ++$i )
 	{
 	if( ($hentaistr[$i] <'Z' || $hentaistr[$i] >'A') && ($hentaistr[$i] <'a' || $hentaistr[$i] >'z') && ($hentaistr[$i] < '0' || $hentaistr[$i] > '9') &&$hentaistr[$i]!='@'&&$hentaistr[$i]!='_' && $hentaistr[$i]!='.') die('badass');
-	}
-	
+	}*/
+	$hentaistr= $_GET['k'];
+
 	$sql = "SELECT * FROM `namae` WHERE `email` LIKE '".$hentaistr."' LIMIT 0, 30 ";
 	$result = mysql_query($sql) or die('Service temporary unavailable.');
 
