@@ -1,7 +1,7 @@
 ﻿
 <?php	// [Info.] The following code will be included in main page : div class "content"
 ?>
-
+	<link href="/dormnet119_2012/ebola/[include]/support/[css]/img.css">
 		<form action="teach.php" >
 			<input type="submit" value="BACK">
 		</form>
@@ -39,7 +39,7 @@
 				<ol>
 					<li>右鍵點選該圖示 選擇 "開啟網路和共用中心"</li>
 						<br/>
-						<img alt="teach_win8_ip1" title="teach_win8_ip1" src="/dormnet119_2012/ebola/[include]/[images]/ip/ip_win8_1.jpg">
+						<img alt="teach_win8_ip1" title="teach_win8_ip1" src="/dormnet119_2012/ebola/[include]/[images]/ip/ip_win8_1.jpg" class="img-rounded">
 						<img alt="teach_win8_ip2" title="teach_win8_ip2" src="/dormnet119_2012/ebola/[include]/[images]/ip/ip_win8_2.jpg">
 						<br/>
 					<li>選擇 "變更介面卡設定" </li>
