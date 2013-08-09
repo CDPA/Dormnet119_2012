@@ -3,7 +3,7 @@
 ?>
 
 <!-- Include CSS -->
-<link href="/dormnet119_2012/ebola/[include]/repair/p2.css" rel="stylesheet" type="text/css" />
+<link href="/Dormnet119_2012/ebola/[include]/repair/p2.css" rel="stylesheet" type="text/css" />
 
 
 <center>

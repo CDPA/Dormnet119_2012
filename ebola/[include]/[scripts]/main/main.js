@@ -85,7 +85,7 @@ function ini_breadcrumb() {
 	//        "Repair" is title
 
 	// Info
-	var root = "/dormnet119_2012/ebola/";
+	var root = "/Dormnet119_2012/ebola/";
 	var path = $(location).attr("pathname").toLowerCase();
 	var arr = path.split('/');
 	var startInd = 3; // starting index in 'arr'

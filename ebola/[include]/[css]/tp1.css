@@ -115,11 +115,11 @@ a:hover, a:active, a:focus {
 	margin-top: 8px !important; /* override */
 }
 #header_nav .OP_header_nav_sel {
-	background-image: url('/dormnet119_2012/ebola/[include]/[images]/main/theme/nav_sel.png');
+	background-image: url('/Dormnet119_2012/ebola/[include]/[images]/main/theme/nav_sel.png');
 	height: 64px !important; /* override */
 }
 #header_nav .OP_header_nav_sel_dis {
-	background-image: url('/dormnet119_2012/ebola/[include]/[images]/main/theme/nav_sel.png');
+	background-image: url('/Dormnet119_2012/ebola/[include]/[images]/main/theme/nav_sel.png');
 	height: 50px !important; /* override */
 }
 /* bodyCanvas contains two major ele: wrapper and footer */
@@ -147,7 +147,7 @@ a:hover, a:active, a:focus {
 	background-color: transparent;
 }
 #breadcrumb {
-	background-image: url('/dormnet119_2012/ebola/[include]/[images]/main/theme/breadcrumb_back.png');
+	background-image: url('/Dormnet119_2012/ebola/[include]/[images]/main/theme/breadcrumb_back.png');
 	background-repeat: no-repeat;
 	width: 874px;
 	height: 32px;
@@ -194,7 +194,7 @@ a:hover, a:active, a:focus {
 	background-color: #fff;
 }
 #content_main { /* level: 1 */
-	background-image: url('/dormnet119_2012/ebola/[include]/[images]/main/pattern_creamdust.png');
+	background-image: url('/Dormnet119_2012/ebola/[include]/[images]/main/pattern_creamdust.png');
 	background-repeat: repeat;
 	border: 1px solid #999999;
 	box-shadow: -2px 0px 3px #B2B2B2, 2px 0px 3px #B2B2B2;

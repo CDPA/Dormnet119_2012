@@ -167,7 +167,7 @@ a:hover, a:active, a:focus {
 	background-color: transparent;
 }
 #content_main { /* level: 1 */
-	background-image: url('/dormnet119_2012/ebola/[include]/[images]/main/pattern_creamdust.png');
+	background-image: url('/Dormnet119_2012/ebola/[include]/[images]/main/pattern_creamdust.png');
 	background-repeat: repeat;
 	border: 1px solid #999999;
 	box-shadow: -2px 0px 3px #B2B2B2, 2px 0px 3px #B2B2B2;
@@ -177,7 +177,7 @@ a:hover, a:active, a:focus {
 	padding: 10px 0;
 }
 .siderbar { /* level: 2 */
-	background-image: url('/dormnet119_2012/ebola/[include]/[images]/main/pattern_honey.png');
+	background-image: url('/Dormnet119_2012/ebola/[include]/[images]/main/pattern_honey.png');
 	background-repeat: repeat;
 	position: relative;
 	float: none;

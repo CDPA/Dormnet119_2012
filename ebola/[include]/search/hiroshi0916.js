@@ -139,7 +139,7 @@ jQ190(document).ready(function(){ //when evil 183 is loaded
 	var els = document.getElementsByTagName("a");
 for (var i = 0, l = els.length; i < l; i++) {
      el = els[i];
-    if (el.href.indexOf('/dormnet119_2012/ebola/search/guide.php')!=-1) {
+    if (el.href.indexOf('/Dormnet119_2012/ebola/search/guide.php')!=-1) {
         el.innerHTML = "Search!";
         el.href = "#";
 		jQ190(el).parent().click(function(){

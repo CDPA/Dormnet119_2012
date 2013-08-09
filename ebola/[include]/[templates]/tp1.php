@@ -108,8 +108,8 @@ This template is for REPAIR, SEARCH, SUPPORT
 <title>Dorm-net 119</title>
 
 <!-- Include CSS -->
-<link href="/dormnet119_2012/ebola/[include]/[css]/tp1.css" rel="stylesheet" type="text/css" />
-<!--  <link href="/dormnet119_2012/ebola/[include]/[css]/DEBUG_layout.css" rel="stylesheet" type="text/css" />
+<link href="/Dormnet119_2012/ebola/[include]/[css]/tp1.css" rel="stylesheet" type="text/css" />
+<!--  <link href="/Dormnet119_2012/ebola/[include]/[css]/DEBUG_layout.css" rel="stylesheet" type="text/css" />
 -->
 </head>
 <body>
@@ -118,8 +118,8 @@ This template is for REPAIR, SEARCH, SUPPORT
 <div id="header_canvas">
 	<div id="header_wrap">
 		<div id="header_logo">
-			<a href="/dormnet119_2012/ebola/index.php" title="Home">
-				<img alt="Home" src="/dormnet119_2012/ebola/[include]/[images]/main/logo.png">
+			<a href="/Dormnet119_2012/ebola/index.php" title="Home">
+				<img alt="Home" src="/Dormnet119_2012/ebola/[include]/[images]/main/logo.png">
 			</a>
 		</div>
 
@@ -127,20 +127,20 @@ This template is for REPAIR, SEARCH, SUPPORT
 			<ul>
 				<li>
 					<div class="OP_header_nav_home">
-					<a href="/dormnet119_2012/ebola/index.php" title="Home" class="OP_header_nav_home">
-					<img id="img_home" src="/dormnet119_2012/ebola/[include]/[images]/main/home.png">
+					<a href="/Dormnet119_2012/ebola/index.php" title="Home" class="OP_header_nav_home">
+					<img id="img_home" src="/Dormnet119_2012/ebola/[include]/[images]/main/home.png">
 					</a></div></li>
 				<li>
 					<div>
-					<a href="/dormnet119_2012/ebola/repair/guide.php">Repair
+					<a href="/Dormnet119_2012/ebola/repair/guide.php">Repair
 					</a></div></li>
 				<li>
 					<div>
-					<a href="/dormnet119_2012/ebola/search/guide.php">Search
+					<a href="/Dormnet119_2012/ebola/search/guide.php">Search
 					</a></div></li>
 				<li>
 					<div>
-					<a href="/dormnet119_2012/ebola/support/guide.php">Support
+					<a href="/Dormnet119_2012/ebola/support/guide.php">Support
 					</a></div></li>
 			</ul>
 		</div>
@@ -164,8 +164,8 @@ This template is for REPAIR, SEARCH, SUPPORT
 				<?php // [Info.] Require contents in other files
 
 					/*	Insert "[include]" into current script path
-						ex. '/dormnet/rescue/1.php' ->
-							'/dormnet/[include]/rescue/1.php'
+						ex. '/Dormnet/rescue/1.php' ->
+							'/Dormnet/[include]/rescue/1.php'
 
 						So you must put files which have exactly same name as front pages
 					*/
@@ -207,6 +207,6 @@ This template is for REPAIR, SEARCH, SUPPORT
 </body>
 
 <!-- Include JavaScripts -->
-<script type="text/javascript" src="/dormnet119_2012/ebola/[include]/[scripts]/main/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="/dormnet119_2012/ebola/[include]/[scripts]/main/main.js"></script>
+<script type="text/javascript" src="/Dormnet119_2012/ebola/[include]/[scripts]/main/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/Dormnet119_2012/ebola/[include]/[scripts]/main/main.js"></script>
 </html>

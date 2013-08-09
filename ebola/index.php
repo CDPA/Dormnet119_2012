@@ -104,7 +104,7 @@
 
 <!-- Include CSS -->
 <link href="/Dormnet119_2012/ebola/[include]/[css]/main.css" rel="stylesheet" type="text/css" />
-<!--  <link href="/dormnet119_2012/ebola/[include]/[css]/DEBUG_layout.css" rel="stylesheet" type="text/css" />
+<!--  <link href="/Dormnet119_2012/ebola/[include]/[css]/DEBUG_layout.css" rel="stylesheet" type="text/css" />
 -->
 </head>
 <body>
@@ -191,8 +191,8 @@
 				<?php // [Info.] Require contents in other files
 
 					/*	Insert "[include]" into current script path
-						ex. '/dormnet/rescue/1.php' ->
-							'/dormnet/[include]/rescue/1.php'
+						ex. '/Dormnet/rescue/1.php' ->
+							'/Dormnet/[include]/rescue/1.php'
 
 						So you must put files which have exactly same name as front pages
 					*/
