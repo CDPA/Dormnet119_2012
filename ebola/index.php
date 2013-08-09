@@ -103,7 +103,7 @@
 <title>Dorm-net 119</title>
 
 <!-- Include CSS -->
-<link href="/dormnet119_2012/ebola/[include]/[css]/main.css" rel="stylesheet" type="text/css" />
+<link href="/Dormnet119_2012/ebola/[include]/[css]/main.css" rel="stylesheet" type="text/css" />
 <!--  <link href="/dormnet119_2012/ebola/[include]/[css]/DEBUG_layout.css" rel="stylesheet" type="text/css" />
 -->
 </head>
@@ -113,8 +113,8 @@
 <div id="header_canvas">
 	<div id="header_wrap">
 		<div id="header_logo">
-			<a href="/dormnet119_2012/ebola/index.php" title="Home">
-				<img alt="Home" src="/dormnet119_2012/ebola/[include]/[images]/main/logo.png">
+			<a href="/Dormnet119_2012/ebola/index.php" title="Home">
+				<img alt="Home" src="/Dormnet119_2012/ebola/[include]/[images]/main/logo.png">
 			</a>
 		</div>
 
@@ -122,20 +122,20 @@
 			<ul>
 				<li>
 					<div class="OP_header_nav_home">
-					<a href="/dormnet119_2012/ebola/index.php" title="Home" class="OP_header_nav_home">
-					<img id="img_home" src="/dormnet119_2012/ebola/[include]/[images]/main/home.png">
+					<a href="/Dormnet119_2012/ebola/index.php" title="Home" class="OP_header_nav_home">
+					<img id="img_home" src="/Dormnet119_2012/ebola/[include]/[images]/main/home.png">
 					</a></div></li>
 				<li>
 					<div>
-					<a href="/dormnet119_2012/ebola/repair/guide.php">Repair
+					<a href="/Dormnet119_2012/ebola/repair/guide.php">Repair
 					</a></div></li>
 				<li>
 					<div>
-					<a href="/dormnet119_2012/ebola/search/guide.php">Search
+					<a href="/Dormnet119_2012/ebola/search/guide.php">Search
 					</a></div></li>
 				<li>
 					<div>
-					<a href="/dormnet119_2012/ebola/support/guide.php">Support
+					<a href="/Dormnet119_2012/ebola/support/guide.php">Support
 					</a></div></li>
 			</ul>
 		</div>
@@ -176,7 +176,7 @@
 				<div class="siderbar" id="siderbar_3">
 				<p><h3>Tutorials</h3></p>
 				<ul>
-					<li><div><a href="/dormnet119_2012/ebola/support/guide.php">Guide</a><br/></div></li>
+					<li><div><a href="/Dormnet119_2012/ebola/support/guide.php">Guide</a><br/></div></li>
 					<li><div><a href="#">How to know if your network is dead</a><br/></div></li>
 					<li><div><a href="#">How to create dungeon in Minecraft</a><br/></div></li>
 					<li><div><a href="#">How to kickass</a><br/></div></li>
@@ -225,7 +225,7 @@
 				<br />
 				® 2013 NSYSU-CDPA. All Rights Reserved.
 			</p>
-			<img src="/dormnet119_2012/ebola/[include]/[images]/main/theme/steve1.png" title="steve wants to mine your craft">
+			<img src="/Dormnet119_2012/ebola/[include]/[images]/main/theme/steve1.png" title="steve wants to mine your craft">
 		</div>
 	</div>
 	<!-- @end .footer --> 
@@ -235,6 +235,6 @@
 </body>
 
 <!-- Include JavaScripts -->
-<script type="text/javascript" src="/dormnet119_2012/ebola/[include]/[scripts]/main/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="/dormnet119_2012/ebola/[include]/[scripts]/main/main.js"></script>
+<script type="text/javascript" src="/Dormnet119_2012/ebola/[include]/[scripts]/main/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/Dormnet119_2012/ebola/[include]/[scripts]/main/main.js"></script>
 </html>
